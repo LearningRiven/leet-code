@@ -7,9 +7,13 @@ package algodaily;
 	Levenshtein Edit Distance (Hard)
 	Good morning! Here's our prompt for today.
 	
-	An edit distance is a way to quantify how different two strings are. This is calculated using the minimum number of transformations to turn one string to another.
+	An edit distance is a way to quantify how different two strings are. This 
+	is calculated using the minimum number of transformations to turn one 
+	string to another.
 	
-	The transformations include insertion, deletion, and substitution. So when comparing two identical strings, say cat and cat, the edit distance would be 0-- there is only an edit distance where there are differences.
+	The transformations include insertion, deletion, and substitution. So when 
+	comparing two identical strings, say cat and cat, the edit distance would 
+	be 0-- there is only an edit distance where there are differences.
 	
 	As an example, here's the edit distance for mitten and sitting:
 	
