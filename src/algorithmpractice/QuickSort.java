@@ -1,5 +1,23 @@
 package algorithmpractice;
 
+/*
+ * Quickest sorting algorithm
+ * 	Drawbacks can occur if not picking a pivot correctly
+ * 
+ * 	 Best: O(NLog(N))
+ *  Worst: O(N^2)
+ *    Avg: O(NLog(N)) - atleast using the middle pivot
+ *  Space: O(1)  
+ *  
+ *  Great for large datasets
+ *  Basically
+ *  	Starts with a full array, with pointers to first/last element
+ *  	Selects a pivot in the middle and gets its value
+ *  	Partitions an array into 2 pieces around an "index"
+ *  		Finds an element on the left thats bigger than the pivot
+ *  		Finds an element on the right thats smaller than the pivot
+ *  		Swaps them
+ */
 public class QuickSort {
 	Utils utils = new Utils();
 	
