@@ -1,4 +1,4 @@
-package algomonster;
+package algomonster.twopointer;
 
 import java.util.List;
 
@@ -17,6 +17,10 @@ public class RemoveDuplicates {
 
 	public int removeDuplicates(List<Integer> arr) {
         int k = 0;
+        
+        if(arr == null) {
+        	return 0;
+        }
         
         while(k < arr.size()){
             int j = k+1;
