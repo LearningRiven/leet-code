@@ -1,4 +1,4 @@
-package algorithmpractice;
+package practice.algorithms;
 
 /*
  * Simplest sorting algorithm

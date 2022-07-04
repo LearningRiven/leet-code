@@ -1,4 +1,4 @@
-package algorithmpractice;
+package practice.algorithms;
 
 import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
