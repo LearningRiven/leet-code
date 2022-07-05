@@ -1,6 +1,4 @@
 # leet-code
-Different code challenges
+Just coding practice for me
 
-leetcode  - https://leetcode.com/problemset/all/
-
-algodaily - https://algodaily.com/challenges/daily
+Some are taken from videos, others from websites, and then some i came up with myself
