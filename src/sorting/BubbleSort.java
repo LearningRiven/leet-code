@@ -30,4 +30,23 @@ public class BubbleSort{
 		return arr;
 	}
 	
+	public int[] sort2(int[] arr) {
+		if(arr.length > 1) {
+			
+			int size = arr.length;
+			for(int k = size-1; k >= 0; k--) {
+				boolean swapped = false;
+				for(int j = 0; j < k; j++) {
+					if(arr[j] > arr[j+1]) {
+						utils.performSwap(arr, j+1, j);
+						swapped = true;
+					}
+				}
+				if(!swapped) {
+					return arr;
+				}
+			}
+		}
+		return arr;
+	}
 }
