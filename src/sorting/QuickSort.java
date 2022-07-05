@@ -1,6 +1,6 @@
 package sorting;
 
-import utilities.Utils;
+import utils.Utils;
 
 /*
  * Quickest sorting algorithm

@@ -1,4 +1,4 @@
-package datastructures;
+package searching;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -9,11 +9,9 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import datastructures.BreadthFirstSearch;
-import datastructures.DepthFirstSearch;
 import datastructures.Vertex;
 
-public class TraversalTest {
+public class GraphTraversalTest {
 	
 	DepthFirstSearch<Integer> dfsTest 		= new DepthFirstSearch<Integer>();
 	BreadthFirstSearch<Integer> bfsTest 	= new BreadthFirstSearch<Integer>();

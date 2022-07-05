@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import sorting.BubbleSort;
 import sorting.QuickSort;
-import testUtilities.TestHelper;
+import utilities.TestHelper;
 
 public class SorterTest {
 	
